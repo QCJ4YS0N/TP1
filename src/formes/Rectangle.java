@@ -1,22 +1,25 @@
 package formes;
 
-public class Rectangle extends Forme{
+import exceptions.FormeException;
 
+public class Rectangle extends Forme {
     private int hauteur;
     private int largeur;
 
-    public Rectangle(String nom, String couleur, int hauteur, int largeur) {
-        super(nom, couleur);
-        this.largeur = largeur;
-        this.hauteur = hauteur;
+    public Rectangle(int hauteur, int largeur) throws FormeException {
+        super("Rectangle");
+        setHauteur(hauteur);
+        setLargeur(largeur);
     }
 
-    public static boolean hauteurEstValide(int hauteur) {
-        return false;
+    @Override
+    public int calculerPerimetre() {
+        return hauteur * largeur;
     }
 
-    public static boolean largeurEstValide(int largeur) {
-        return false;
+    @Override
+    public int calculerSurface() {
+        return 2 * hauteur + 2 * largeur;
     }
 
     public int getHauteur() {
@@ -27,21 +30,30 @@ public class Rectangle extends Forme{
         return largeur;
     }
 
-    public void setHauteur(int hauteur) {
-        this.hauteur = hauteur;
+    public static boolean hauteurEstValide(int hauteur) {
+        return MIN_VAL <= hauteur && hauteur <= MAX_VAL;
     }
 
-    public void setLargeur(int largeur) {
-        this.largeur = largeur;
+    public static boolean largeurEstValide(int largeur) {
+        return MIN_VAL <= largeur && largeur <= MAX_VAL;
+    }
+
+    public void setHauteur(int hauteur) throws FormeException {
+        if (hauteurEstValide(hauteur)) {
+            this.hauteur = hauteur;
+        }
+        throw new FormeException();
+    }
+
+    public void setLargeur(int largeur) throws FormeException {
+        if (largeurEstValide(largeur)) {
+            this.largeur = largeur;
+        }
+        throw new FormeException();
     }
 
     @Override
-    public int calculerPerimetre() {
-        return 0;
-    }
-
-    @Override
-    public int calculerSurface() {
-        return 0;
+    public String toString() {
+        return super.toString()+ hauteur + " " + largeur;
     }
 }

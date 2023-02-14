@@ -1,33 +1,42 @@
 package formes;
 
-public class Cercle extends Forme {
+import exceptions.FormeException;
 
+public class Cercle extends Forme {
     private int rayon;
 
-    public Cercle(String nom, String couleur, int rayon) {
-        super(nom, couleur);
-        this.rayon = rayon;
+    public Cercle(int rayon) throws FormeException {
+        super("Cercle");
+        setRayon(rayon);
     }
 
-    public static boolean rayonEstValide(int rayon) {
-        return false;
+    @Override
+    public int calculerPerimetre() {
+        return (int) (2 * Math.PI * rayon);
+    }
+
+    @Override
+    public int calculerSurface() {
+        return (int) (Math.PI * Math.pow(rayon, 2));
     }
 
     public int getRayon() {
         return rayon;
     }
 
-    public void setRayon(int rayon) {
-        this.rayon = rayon;
+    public static boolean rayonEstValide(int rayon) {
+        return MIN_VAL <= rayon && rayon <= MAX_VAL;
+    }
+
+    public void setRayon(int rayon) throws FormeException {
+        if (rayonEstValide(rayon)) {
+            this.rayon = rayon;
+        }
+        throw new FormeException();
     }
 
     @Override
-    public int calculerPerimetre() {
-        return 0;
-    }
-
-    @Override
-    public int calculerSurface() {
-        return 0;
+    public String toString() {
+        return super.toString() + rayon;
     }
 }
