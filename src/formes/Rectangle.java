@@ -1,3 +1,10 @@
+/*
+420-202 – TP1 – Traitement de données orienté objet
+Groupe : 2
+Nom : Poirier
+Prénom : Jayson
+DA : 2243405
+*/
 package formes;
 
 import exceptions.FormeException;
@@ -14,12 +21,12 @@ public class Rectangle extends Forme {
 
     @Override
     public int calculerPerimetre() {
-        return hauteur * largeur;
+        return 2 * hauteur + 2 * largeur;
     }
 
     @Override
     public int calculerSurface() {
-        return 2 * hauteur + 2 * largeur;
+        return hauteur * largeur;
     }
 
     public int getHauteur() {
@@ -41,19 +48,21 @@ public class Rectangle extends Forme {
     public void setHauteur(int hauteur) throws FormeException {
         if (hauteurEstValide(hauteur)) {
             this.hauteur = hauteur;
+        } else {
+            throw new FormeException();
         }
-        throw new FormeException();
     }
 
     public void setLargeur(int largeur) throws FormeException {
         if (largeurEstValide(largeur)) {
             this.largeur = largeur;
+        } else {
+            throw new FormeException();
         }
-        throw new FormeException();
     }
 
     @Override
     public String toString() {
-        return super.toString()+ hauteur + " " + largeur;
+        return super.toString() + hauteur + " " + largeur;
     }
 }

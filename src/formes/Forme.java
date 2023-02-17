@@ -1,6 +1,11 @@
+/*
+420-202 – TP1 – Traitement de données orienté objet
+Groupe : 2
+Nom : Poirier
+Prénom : Jayson
+DA : 2243405
+*/
 package formes;
-
-import exceptions.FormeException;
 
 public abstract class Forme implements Comparable<Forme> {
     public static final Couleur COULEUR_DEFAUT = Couleur.ROUGE;
@@ -55,7 +60,6 @@ public abstract class Forme implements Comparable<Forme> {
             case ORANGE:
             case ROUGE:
             case VERT:
-            case ROSE:
                 this.couleur = couleur;
                 break;
         }

@@ -1,3 +1,11 @@
+/*
+420-202 – TP1 – Traitement de données orienté objet
+Groupe : 2
+Nom : Poirier
+Prénom : Jayson
+DA : 2243405
+*/
+
 package formes;
 
 import exceptions.FormeException;
@@ -31,8 +39,9 @@ public class Cercle extends Forme {
     public void setRayon(int rayon) throws FormeException {
         if (rayonEstValide(rayon)) {
             this.rayon = rayon;
+        } else {
+            throw new FormeException();
         }
-        throw new FormeException();
     }
 
     @Override
