@@ -9,6 +9,9 @@ package formes;
 
 import exceptions.FormeException;
 
+/**
+ * Permet de créer une forme de type Rectangle
+ */
 public class Rectangle extends Forme {
     private int hauteur;
     private int largeur;

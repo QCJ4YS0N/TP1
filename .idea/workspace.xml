@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8983e56-3bdf-4d3c-a74c-bf9a36cf2e5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_tests/formes/CercleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_tests/formes/FormeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_tests/formes/RectangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_tests/formes/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaysonPoirier-TP1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/FormeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/FormeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_tests/formes/CercleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_tests/formes/CercleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_tests/formes/FormeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_tests/formes/FormeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_tests/formes/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_tests/formes/RectangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formes/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formes/Cercle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formes/Couleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formes/Couleur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formes/Forme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formes/Forme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formes/Tests_Rapides.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formes/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formes/TypeTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formes/TypeTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="U:\Progammation\Cours\TP1\_htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +64,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Jason/Java Projects/École/TP1",
+    "last_opened_file_path": "U:/Progammation/Cours/TP1/_htmlReport",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +72,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,9 +87,22 @@
       <recent name="formes" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RectangleTest">
+  <component name="RunManager" selected="JUnit.FormeTest.getNom">
+    <configuration name="CercleTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JaysonPoirier-TP1" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="formes.CercleTest" />
+        <pattern testClass="formes.FormeTest" />
+        <pattern testClass="formes.RectangleTest" />
+        <pattern testClass="formes.TriangleTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CercleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1" />
+      <module name="JaysonPoirier-TP1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="formes.*" />
@@ -100,7 +117,7 @@
       </method>
     </configuration>
     <configuration name="CercleTest.calculerSurface" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1" />
+      <module name="JaysonPoirier-TP1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="formes.*" />
@@ -115,19 +132,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormeTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="formes.FormeTest" />
-        <pattern testClass="formes.TriangleTest" />
-      </patterns>
+    <configuration name="FormeTest.getNom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JaysonPoirier-TP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="formes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="formes" />
+      <option name="MAIN_CLASS_NAME" value="formes.FormeTest" />
+      <option name="METHOD_NAME" value="getNom" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1" />
+      <module name="JaysonPoirier-TP1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="formes.*" />
@@ -141,28 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="formes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="formes" />
-      <option name="MAIN_CLASS_NAME" value="formes.TriangleTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JaysonPoirier-TP1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JaysonPoirier-TP1" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormeTest.getNom" />
+        <item itemvalue="JUnit.CercleTest and 3 more" />
         <item itemvalue="JUnit.RectangleTest" />
         <item itemvalue="JUnit.CercleTest.calculerSurface" />
         <item itemvalue="JUnit.CercleTest" />
-        <item itemvalue="JUnit.FormeTest and 1 more" />
-        <item itemvalue="JUnit.TriangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +197,7 @@
       <workItem from="1676040891372" duration="1719000" />
       <workItem from="1676645701343" duration="13315000" />
       <workItem from="1676408121204" duration="7411000" />
+      <workItem from="1677013544588" duration="8234000" />
     </task>
     <servers />
   </component>
@@ -194,16 +215,21 @@
       </map>
     </option>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TP1$TriangleTest_compareTo.ic" NAME="TriangleTest.compareTo Coverage Results" MODIFIED="1676658220625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>formes.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/TP1$FormeTest_and_1_more.ic" NAME="FormeTest and 1 more Coverage Results" MODIFIED="1676659008996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TP1$TriangleTest_testToString.ic" NAME="TriangleTest.testToString Coverage Results" MODIFIED="1676657132405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>formes.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/TP1$TriangleTest.ic" NAME="TriangleTest Coverage Results" MODIFIED="1676658991898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>formes.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/TP1$TriangleTest_testToString.ic" NAME="TriangleTest.testToString Coverage Results" MODIFIED="1676657132405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>formes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TP1$TriangleTest_compareTo.ic" NAME="TriangleTest.compareTo Coverage Results" MODIFIED="1676658220625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>formes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TP1$CercleTest_and_3_more.ic" NAME="CercleTest and 3 more Coverage Results" MODIFIED="1677015578379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

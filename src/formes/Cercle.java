@@ -5,11 +5,13 @@ Nom : Poirier
 Prénom : Jayson
 DA : 2243405
 */
-
 package formes;
 
 import exceptions.FormeException;
 
+/**
+ * Permet de créer une forme de type Cercle
+ */
 public class Cercle extends Forme {
     private int rayon;
 

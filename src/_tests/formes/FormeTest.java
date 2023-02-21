@@ -1,3 +1,10 @@
+/*
+420-202 – TP1 – Traitement de données orienté objet
+Groupe : 2
+Nom : Poirier
+Prénom : Jayson
+DA : 2243405
+*/
 package formes;
 
 import exceptions.FormeException;
@@ -53,6 +60,8 @@ class FormeTest {
     @Test
     void getNom() {
         assertEquals("Triangle", t1.getNom());
+        assertEquals("Cercle", c1.getNom());
+        assertEquals("Rectangle", r1.getNom());
     }
 
     @Test
