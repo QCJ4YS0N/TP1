@@ -53,7 +53,7 @@ class FormeTest {
         t1.setCouleur(Couleur.BLEU);
         assertEquals(Couleur.BLEU, t1.getCouleur());
 
-        t1.setCouleur(Couleur.ROSE);
+        t1.setCouleur(null);
         assertEquals(Couleur.BLEU, t1.getCouleur());
     }
 

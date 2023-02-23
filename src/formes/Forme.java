@@ -32,6 +32,7 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Constructeur de la classe
+     *
      * @param nom Permet de donner un nom aux formes
      */
     public Forme(String nom) {
@@ -41,18 +42,21 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Calcule le périmètre d'une forme
+     *
      * @return Le périmètre d'une forme
      */
     public abstract int calculerPerimetre();
 
     /**
      * Calcule la surface d'une forme
+     *
      * @return La surface d'une forme
      */
     public abstract int calculerSurface();
 
     /**
      * Permet de comparer une forme selon le nom ou la couleur si le nom est pareil
+     *
      * @param o the object to be compared.
      * @return -1 si la couleur de la forme courante est alphabétiquement avant, 0 si ils sont pareil et 1 si elle est alphabétiquement après
      * @return -1 si le nom de la forme courante est alphabétiquement avant, 0 si ils sont pareil et 1 si il est alphabétiquement après
@@ -67,6 +71,7 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Vérifie si la forme est égale avec un autre objet
+     *
      * @param o L'objet avec lequel vérifier l'égalité
      * @return true si la couleur, le nom et la surface de deux formes sont pareil
      */
@@ -84,6 +89,7 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Retourne la couleur d'une forme
+     *
      * @return la couleur de la forme
      */
     public Couleur getCouleur() {
@@ -92,6 +98,7 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Retourne le nom d'une forme
+     *
      * @return le nom de la forme
      */
     public String getNom() {
@@ -100,6 +107,7 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Permet d'affecter une couleur à la forme
+     *
      * @param couleur la couleur à affecter à la forme
      */
     public void setCouleur(Couleur couleur) {
@@ -110,6 +118,7 @@ public abstract class Forme implements Comparable<Forme> {
 
     /**
      * Crée une ligne de texte avec le nom et la couleur de la forme
+     *
      * @return le nom et la couleur de la forme en texte
      */
     @Override
