@@ -51,7 +51,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Jayson/Desktop/TP1",
+    "last_opened_file_path": "C:/Users/Jason/Java Projects/École/TP1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -172,6 +172,7 @@
       <workItem from="1676408121204" duration="7411000" />
       <workItem from="1677013544588" duration="8234000" />
       <workItem from="1677180202427" duration="239000" />
+      <workItem from="1677198240424" duration="14000" />
     </task>
     <servers />
   </component>
@@ -194,15 +195,15 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TP1$CercleTest_and_3_more.ic" NAME="CercleTest and 3 more Coverage Results" MODIFIED="1677015578379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TP1$TriangleTest.ic" NAME="TriangleTest Coverage Results" MODIFIED="1676658991898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>formes.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TP1$TriangleTest_testToString.ic" NAME="TriangleTest.testToString Coverage Results" MODIFIED="1676657132405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TP1$TriangleTest_compareTo.ic" NAME="TriangleTest.compareTo Coverage Results" MODIFIED="1676658220625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>formes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TP1$FormeTest_and_1_more.ic" NAME="FormeTest and 1 more Coverage Results" MODIFIED="1676659008996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TP1$TriangleTest_compareTo.ic" NAME="TriangleTest.compareTo Coverage Results" MODIFIED="1676658220625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TP1$TriangleTest_testToString.ic" NAME="TriangleTest.testToString Coverage Results" MODIFIED="1676657132405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>formes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TP1$CercleTest_and_3_more.ic" NAME="CercleTest and 3 more Coverage Results" MODIFIED="1677015578379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TP1$TriangleTest.ic" NAME="TriangleTest Coverage Results" MODIFIED="1676658991898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>formes.*</FILTER>
     </SUITE>
   </component>
